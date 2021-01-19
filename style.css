@@ -16,14 +16,26 @@ h1 {
   clear: both;
 }
 
+.selected-word {
+  margin-top: 0.5em;
+  font-size: 3em;
+  letter-spacing: 0.5em;
+}
+
 .characters {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 p {
   display: inline-block;
   margin: 1em;
   font-weight: 1em;
+}
+
+#play {
+  padding: 2em;
 }
 
 #life {
@@ -33,4 +45,11 @@ p {
 
 #life-count {
   color: red;
+}
+
+
+.letters {
+  width: 3em;
+  padding: 1em;
+  margin: 1em;
 }
